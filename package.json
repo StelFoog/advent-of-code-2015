@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code-2015",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "task": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "jsxSingleQuote": false,
+    "printWidth": 100,
+    "semi": true,
+    "tabWidth": 2,
+    "useTabs": true,
+    "trailingComma": "es5"
+  }
+}
